@@ -1,0 +1,69 @@
+body{
+    background-color: yellowgreen;
+    /*margenes al elemento: arriba derecha abajo izquierda*/
+    margin: 0px 100px 0px 100px;
+    /*Colocar un tipo de letra*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    /*fondo del color de la seccion*/
+    background-color: tan;
+    /*bordes a un elemento: tamaño tipo color*/
+    border: 15px inset purple;
+    /*Texto/elemento/contenido del bloque al centro*/
+    text-align: center;
+    /*Texto al centro*/
+    white-space: normal;
+}
+header #parrafo{
+    background-color: aqua;
+    /*Espacios alrededor del elemento: arriba derecha abajo izquierda*/
+    padding: 5px 5px 5px 5px;
+    margin: 0px 100px 30px 100px;
+    /*Agregar una sombra a un elemento: horizontal vertical desenfoque color*/
+    box-shadow: 2px 2px 7px 1px aqua;
+}
+main{
+    background-color: #ff6b6b;
+    border: 15px inset purple;
+}
+main .area{
+    /*Estilo de Letra Cursiva*/
+    font-style: italic;
+    /*Estilo de letras MAYUSCULAS*/
+    text-transform: uppercase;
+}
+main .producto{
+    /*Estilo de Letra Normal*/
+    font-style: normal;
+}
+main td{
+    border: 3px solid black;
+}
+figure figcaption{
+    /*Estilo de texto en Negrita*/
+    font-weight: bold;
+}
+figcaption li{
+    /*Estilo de las viñetas de las listas desordenadas*/
+    list-style: circle;
+}
+#uno{
+    text-align: center;
+    margin: auto;
+}
+#uno img{
+    /*Ancho y alto de la imagen*/
+    width: 50%;
+    height: 50%;
+    /*Borde circular de un objeto*/
+    border-radius: 5px;
+}
+footer{
+    background-color: #ff5100;
+    border: 15px inset purple;
+    text-align: center;
+    white-space: pre-wrap;
+    /*Tamaño de letra del texto de un elemento*/
+    font-size: 20px;
+}

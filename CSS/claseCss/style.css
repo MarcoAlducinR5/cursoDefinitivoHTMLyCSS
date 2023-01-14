@@ -1,0 +1,16 @@
+/* Por la etiqueta HTML */
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/* con el atributo class y con .atrubuto*/
+.parrafo{
+    color: red;
+}
+
+/*con el id del elemento y con #atributo*/
+#texto{
+    color: yellow;
+    font-size: 24px;
+}
