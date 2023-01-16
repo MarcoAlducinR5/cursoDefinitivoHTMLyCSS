@@ -1,0 +1,40 @@
+.main-nav{
+    /*colocar margen de lado derecho*/
+    margin-top: 10px;
+    /*quitar los puntos de la lista desordenada*/
+    list-style: none;
+    /*El espacio interno de un contenedor*/
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    /*Cambiar la orientacion en que se muestra una serie de elementos*/
+    display: inline-block;
+}
+/*cambiar el estilo a una etiqueta en especifico*/
+.main-nav__item a{
+    /*Color a la letra*/
+    color: white;
+    padding: 5px;
+    /*coloca un borde con extremos redondos al elemento*/
+    border-radius: 2px;
+    /*Quita el subrayado al texto*/
+    text-decoration: none;
+}
+
+/*Colocar 2 puntos ":" despues de un elemento para colocar una pseudoclase, define un estado de un elemento*/
+.main-nav__item a:hover{
+    /*hover: cuando el mouse esta sobre el elemento*/
+    color: blue;
+}
+.main-nav__item a:active{
+    /*active: cuando hace clic en el elemento*/
+    color: red;
+}
+
+/*Colocar 4 puntos ":" despues de un elemento para colocar una pseudoelemento: define una parte especifica de un item*/
+.main-nav__item a::after{
+    /*content: agrega texto a un elemento */
+    /*after: despues de un elemento*/
+    content: " | ";
+}
