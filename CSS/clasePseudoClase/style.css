@@ -38,3 +38,59 @@
     /*after: despues de un elemento*/
     content: " | ";
 }
+
+#btn{
+    border-radius: 3px;
+    border: solid 1px #545f41;
+    background-color: #545f41;
+}
+#btn:hover{
+    border: solid 1px #e084bd;
+    background-color: #e084bd;
+}
+#btn:active{
+    border: solid 1px #c8ff00;
+    background-color: #c8ff00;
+}
+
+#btn::after{
+    content: " Click Aqui";
+    color: #ff2fa1
+}
+#btn::before{
+    content: "Para => ";
+    color: #8abdee
+}
+#btn::first-letter{
+    font-size: xx-large;
+}
+
+#check:checked + div{
+    background-color: darkorange;
+}
+#check:checked + div::first-letter{
+    font-size: xx-large;
+}
+#radio:checked + label{
+    background-color: #78fa99;
+}
+#check1:checked + label{
+    background-color: #e21765;
+}
+#radio1:checked + div{
+    background-color: #3f5eeb;
+}
+#radio1:checked + div::first-letter{
+    font-size: xx-large;
+}
+
+.primeroDe{
+    font-family: 'Lucida Sans';
+}
+.primeroDe label:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  blue;
+}
+.primeroDe::first-letter{
+    font-size: xx-large;
+}
