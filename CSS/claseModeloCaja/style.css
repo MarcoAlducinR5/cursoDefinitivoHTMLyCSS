@@ -1,0 +1,24 @@
+/*reseteo de estilos*/
+/*selector universal*/
+*{
+    /*suma el padding con el width del elemento*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    /*El largo del elemento*/
+    width: 100%;
+    /*El alto del elemento*/
+    height: 500px;
+    /*El borde de un elemento: tamaño tipo color
+    ->solid: borde solido*/
+    border: 10px solid grey;
+    /*El relleno del elemento: 
+    ->un valor: a toda el elemento
+    -> arriba-abajo izquierda-derecha
+    ->left: izquierda, top: arriba,
+    right: derecha, bottom: abajo*/
+    padding: 20px 35px;
+}
