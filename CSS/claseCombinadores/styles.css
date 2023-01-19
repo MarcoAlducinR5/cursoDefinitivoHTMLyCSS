@@ -1,0 +1,23 @@
+/*Adiacent Sibilings: Hermano cercano -> 
+aplicalo a un elemento cerca del anterior*/
+h2 + p{
+    color: red;
+}
+/*practica Hermano Cercano*/
+.practica input[type="checkbox"] + label{
+    color:blue;
+    font-weight: bold;
+    font-size: xx-small;
+}
+.practica img{
+    width: 25%;
+}
+.practica img + figcaption::first-letter{
+    font-size: xx-large;
+    color: brown;
+    border: 3px double green;
+}
+.practica figure + p{
+    background-color: #ff7300;
+    width: 50%;
+}
